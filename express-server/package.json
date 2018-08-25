@@ -1,0 +1,32 @@
+{
+  "name": "devc_skills_server",
+  "version": "1.0.0",
+  "description": "this is to show how to build a server suing express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets babel-preset-env",
+    "test": "test",
+    "dev": "nodemon index.js --exec babel-node --presets babel-preset-env"
+  },
+  "keywords": [
+    "devc",
+    "meetup",
+    "mern",
+    "stack"
+  ],
+  "author": "devc lusaka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.1"
+  }
+}
